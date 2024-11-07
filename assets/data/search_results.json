@@ -1,0 +1,62 @@
+{
+    "searchResults": [
+      {
+        "flight": {
+          "onward": {
+            "airline": "Garuda Indonesia",
+            "flightNumber": "GA409",
+            "departureTime": "14:35",
+            "arrivalTime": "21:55",
+            "duration": "4h 30m",
+            "stops": 2,
+            "stopoverCities": ["Chennai", "Mumbai"]
+          },
+          "return": {
+            "airline": "Garuda Indonesia",
+            "flightNumber": "GA359",
+            "departureTime": "21:55",
+            "arrivalTime": "04:35",
+            "duration": "4h 30m",
+            "stops": 2,
+            "stopoverCities": ["Dubai", "Mumbai"]
+          },
+          "price": {
+            "currency": "AED",
+            "amount": 409
+          },
+          "isCheapest": true,
+          "isRefundable": true,
+          "detailsUrl": "https://example.com/flight_details"
+        }
+      },
+      {
+        "flight": {
+          "onward": {
+            "airline": "Garuda Indonesia",
+            "flightNumber": "GA411",
+            "departureTime": "15:00",
+            "arrivalTime": "22:30",
+            "duration": "4h 30m",
+            "stops": 1,
+            "stopoverCities": ["Chennai"]
+          },
+          "return": {
+            "airline": "Garuda Indonesia",
+            "flightNumber": "GA361",
+            "departureTime": "22:30",
+            "arrivalTime": "05:00",
+            "duration": "4h 30m",
+            "stops": 1,
+            "stopoverCities": ["Dubai"]
+          },
+          "price": {
+            "currency": "AED",
+            "amount": 459
+          },
+          "isCheapest": false,
+          "isRefundable": false,
+          "detailsUrl": "https://example.com/flight_details"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,78 @@
+name: flight_booking_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  flutter_svg: ^2.0.13
+  google_fonts: ^6.2.1
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/data/search_results.json
+    - assets/icons/account_settings.svg
+    - assets/icons/Accounts.svg
+    - assets/icons/arrow_down_green.svg
+    - assets/icons/arrow_down.svg
+    - assets/icons/badgeNotification.svg
+    - assets/icons/bill_payment.svg
+    - assets/icons/card.svg
+    - assets/icons/checkBoxIcon.svg
+    - assets/icons/chevron_right.svg
+    - assets/icons/Combined Shape.svg
+    - assets/icons/Cross.svg
+    - assets/icons/Filter.svg
+    - assets/icons/flight_green.svg
+    - assets/icons/History.svg
+    - assets/icons/Home.svg
+    - assets/icons/location.svg
+    - assets/icons/manage.svg
+    - assets/icons/More-Horizontal.svg
+    - assets/icons/Notification.svg
+    - assets/icons/Payments.svg
+    - assets/icons/Profile.svg
+    - assets/icons/quick_tranfer.svg
+    - assets/icons/sub_account.svg
+    - assets/icons/Transfer.svg
+    - assets/icons/visibility.svg
+    - assets/icons/Wallet.svg
+    - assets/images/badgeNotification.png
+    - assets/images/banner.png
+    - assets/images/best_price.png
+    - assets/images/flight_brand.png
+    - assets/images/neom.png
+    - assets/images/towers.png
+
+
+  # fonts:
+    # - family: GoogleFonts
+    # - family: Schyler
+    #   fonts:
+    #     - asset: fonts/Schyler-Regular.ttf
+    #     - asset: fonts/Schyler-Italic.ttf
+    #       style: italic
+    # - family: Trajan Pro
+    #   fonts:
+    #     - asset: fonts/TrajanPro.ttf
+    #     - asset: fonts/TrajanPro_Bold.ttf
+    #       weight: 700

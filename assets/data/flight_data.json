@@ -1,0 +1,23 @@
+[
+    {
+      "id": "F123",
+      "origin": "BLR",
+      "destination": "DXB",
+      "departureTime": "14:35",
+      "arrivalTime": "21:55",
+      "price": 409.0,
+      "airline": "Garuda Indonesia",
+      "stops": 2
+    },
+    {
+      "id": "F124",
+      "origin": "DXB",
+      "destination": "BLR",
+      "departureTime": "21:55",
+      "arrivalTime": "04:35",
+      "price": 359.0,
+      "airline": "Garuda Indonesia",
+      "stops": 2
+    }
+  ]
+  
